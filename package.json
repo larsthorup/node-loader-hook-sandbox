@@ -1,0 +1,12 @@
+{
+  "name": "loader-hook-sandbox",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=\"--loader=./log-loader.js\" node index.test.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
